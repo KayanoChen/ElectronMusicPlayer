@@ -1,0 +1,61 @@
+html,body{
+    margin:0px ;
+    padding:0px;
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 88%;
+    position: fixed;
+    overflow-x: hidden;
+}
+.main-div{
+    idth: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.audio-player{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    height: 3%;
+    position: fixed;
+    bottom: 5%;
+    font: caption;
+    text-align: center;
+}
+.footer-title{
+    margin: 0 auto;
+    width: 100%;
+    display: inline;
+}
+.footer-title div{
+    width: 48%;
+    float: left;
+    flex: 1;
+    display: inline;
+}
+.footer-title span{
+    width: 4%;
+    float: left;
+    display: inline;
+    float: left;
+    text-align: center;
+}
+.footer-title a{
+    cursor: pointer;
+    text-align: center;
+}
+.footer-body{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.footer-title-left{
+    text-align: right;
+}
+.footer-title-right{
+    text-align: left;
+}

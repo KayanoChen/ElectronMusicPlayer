@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kayano Music Box</title>
+    <link rel="import" href="../../templates/audio/audio.html">
+    <link rel="import" href="../../templates/drag/drag.html">
+    <link rel="stylesheet" href="../../assets/css/index.css">
+    <link rel="stylesheet" href="../../assets/css/drag.css">
+    <link rel="stylesheet" href="../../node_modules/aplayer/dist/APlayer.min.css">
+</head>
+<body>
+    <div id="main" class="main">
+        <div id="main-div" class="main-div">
+            <!--<div id="audio-player" class="audio-player"></div>-->
+
+            <div class="drag-div">
+                <div class="drag-icon"></div>
+                <div class="drag-tap">拖拽音乐到这里</div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-title">
+            <div class="footer-title-left"><a id="zn-about">关于</a></div>
+            <span>|</span>
+            <div class="footer-title-right"><a id="en-about">About</a></div>
+        </div>
+        <div class="footer-body">
+            <a id="github">
+                <!--© 2018 KayanoChen-->
+            </a>
+        </div>
+    </footer>
+</body>
+<script src="./../../renderer-process/native-ui/index/index.js"></script>
+<script src="./../../renderer-process/native-ui/index/audio.js"></script>
+<script src="./../../renderer-process/native-ui/index/drag.js"></script>
+</html>

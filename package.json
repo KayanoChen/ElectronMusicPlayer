@@ -1,0 +1,23 @@
+{
+  "name": "kayanomusicbox",
+  "productName":"kayanomusicbox",
+  "version": "1.0.0",
+  "description": "kayanomusicbox",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-win": "electron-packager . KayanoMusicBox --out ./dist --icon=ico.ico --platform=win32 --arch=x64 --electron-version 3.0.12 --overwrite"
+  },
+  "author": "chenzhaoquan1994@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "aplayer": "^1.10.1",
+    "electron": "^3.0.12",
+    "electron-packager": "^13.0.1",
+    "iconv-lite": "^0.4.24",
+    "id3-parser": "^2.0.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "vue": "^2.5.21"
+  }
+}
